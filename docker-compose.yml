@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  books-app:
+    container_name: books-app
+    build: 
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./scripts:/usr/local/src/scripts
+    depends_on:
+      - db
+    env_file:
+      - .env
+    networks:
+      - books-backend
+
+  db:
+    container_name: books-db
+    image: postgres:latest
+    ports:
+      - "${DB_PORT}:${DB_PORT}"
+    env_file:
+      - .env
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    restart: on-failure
+    networks:
+      - books-backend
+
+networks:
+  books-backend:
+    driver: bridge
+
+volumes:
+  pg-data:
+  
