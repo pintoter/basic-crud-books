@@ -6,9 +6,6 @@
     <h5>
         A service written in the Go programming language is designed to create, read, update and delete books.
     </h5>
-    <p>
-        English | <a href="README.ru.md">Russian</a> 
-    </p>
 </div>
 
 ---
