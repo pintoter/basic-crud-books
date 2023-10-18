@@ -4,7 +4,7 @@
 <div align="center">
     <h1>Books service</h1>
     <h5>
-        A service written in the Go programming language is designed to create, read, update and delete books.
+        A service written in the Go for create, read, update and delete books.
     </h5>
 </div>
 
