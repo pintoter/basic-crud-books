@@ -1,8 +1,8 @@
 package service
 
 import (
-	"books-app/internal/model"
-	"books-app/internal/repository"
+	"github.com/pintoter/basic-crud-books/internal/model"
+	"github.com/pintoter/basic-crud-books/internal/repository"
 	"context"
 	"database/sql"
 	"errors"

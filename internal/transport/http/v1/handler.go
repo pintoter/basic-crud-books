@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"books-app/internal/service"
+	"github.com/pintoter/basic-crud-books/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,8 +1,8 @@
 package config
 
 import (
-	"books-app/pkg/database/postgres"
-	"books-app/pkg/logger"
+	"github.com/pintoter/basic-crud-books/pkg/database/postgres"
+	"github.com/pintoter/basic-crud-books/pkg/logger"
 
 	"github.com/joho/godotenv"
 	"github.com/kelseyhightower/envconfig"

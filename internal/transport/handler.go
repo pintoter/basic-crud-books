@@ -1,9 +1,10 @@
 package transport
 
 import (
-	"books-app/internal/service"
-	v1 "books-app/internal/transport/http/v1"
 	"net/http"
+
+	"github.com/pintoter/basic-crud-books/internal/service"
+	v1 "github.com/pintoter/basic-crud-books/internal/transport/http/v1"
 
 	"github.com/gin-gonic/gin"
 )

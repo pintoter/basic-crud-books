@@ -1,14 +1,14 @@
 package app
 
 import (
-	"books-app/internal/config"
-	"books-app/internal/repository"
-	"books-app/internal/server"
-	"books-app/internal/service"
-	"books-app/internal/transport"
-	"books-app/pkg/database/postgres"
-	"books-app/pkg/hash"
-	"books-app/pkg/logger"
+	"github.com/pintoter/basic-crud-books/internal/config"
+	"github.com/pintoter/basic-crud-books/internal/repository"
+	"github.com/pintoter/basic-crud-books/internal/server"
+	"github.com/pintoter/basic-crud-books/internal/service"
+	"github.com/pintoter/basic-crud-books/internal/transport"
+	"github.com/pintoter/basic-crud-books/pkg/database/postgres"
+	"github.com/pintoter/basic-crud-books/pkg/hash"
+	"github.com/pintoter/basic-crud-books/pkg/logger"
 	"context"
 	"errors"
 	"net/http"

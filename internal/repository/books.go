@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"books-app/internal/model"
+	"github.com/pintoter/basic-crud-books/internal/model"
 	"context"
 	"database/sql"
 

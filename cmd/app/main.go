@@ -1,8 +1,8 @@
 package main
 
 import (
-	"books-app/internal/app"
-	"books-app/pkg/logger"
+	"github.com/pintoter/basic-crud-books/internal/app"
+	"github.com/pintoter/basic-crud-books/pkg/logger"
 )
 
 const (

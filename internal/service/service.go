@@ -1,9 +1,9 @@
 package service
 
 import (
-	"books-app/internal/model"
-	"books-app/internal/repository"
-	"books-app/pkg/hash"
+	"github.com/pintoter/basic-crud-books/internal/model"
+	"github.com/pintoter/basic-crud-books/internal/repository"
+	"github.com/pintoter/basic-crud-books/pkg/hash"
 	"context"
 )
 

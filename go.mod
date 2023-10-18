@@ -1,4 +1,4 @@
-module books-app
+module github.com/pintoter/basic-crud-books
 
 go 1.21.1
 

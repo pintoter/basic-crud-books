@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"books-app/internal/model"
+	"github.com/pintoter/basic-crud-books/internal/model"
 	"context"
 	"database/sql"
 )
@@ -12,7 +12,6 @@ type Books interface {
 	GetByID(ctx context.Context, id int) (model.Book, error)
 	GetByAuthor(ctx context.Context, author string) ([]model.Book, error)
 	GetByTitle(ctx context.Context, title string) (model.Book, error)
-	// UpdateRating(ctx context.Context, rate float64) error
 	UpdateRating(ctx context.Context, rating float64, author string, title string) error
 	DeleteByID(ctx context.Context, id int) error
 	DeleteByTitle(ctx context.Context, title string) error

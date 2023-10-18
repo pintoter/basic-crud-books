@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"books-app/internal/model"
+	"github.com/pintoter/basic-crud-books/internal/model"
 	"errors"
 	"fmt"
 	"net/http"

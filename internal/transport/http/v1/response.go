@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"books-app/pkg/logger"
+	"github.com/pintoter/basic-crud-books/pkg/logger"
 
 	"github.com/gin-gonic/gin"
 )
