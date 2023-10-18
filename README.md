@@ -38,9 +38,6 @@ export DB_NAME=
 export DB_SSLMODE=
 export DB_PASSWORD=
 
-# Local database
-export LOCAL_DB_PORT=
-
 # Postgres service
 export POSTGRES_PASSWORD=
 
